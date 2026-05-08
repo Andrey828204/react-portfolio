@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+
+  background: rgba(15,23,42,0.9);
+
+  margin-top: 40px;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  color: white;
+  margin: 0 10px;
+}
