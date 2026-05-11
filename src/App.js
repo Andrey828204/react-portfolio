@@ -9,19 +9,26 @@ import MyFuture from './pages/MyFuture';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-portfolio">
+
       <Header />
 
       <main className="container">
+
         <Routes>
           <Route path="/" element={<AboutMe />} />
+
           <Route path="/about" element={<AboutMe />} />
+
           <Route path="/my-city" element={<MyCity />} />
+
           <Route path="/my-future" element={<MyFuture />} />
         </Routes>
+
       </main>
 
       <Footer />
+
     </BrowserRouter>
   );
 }
